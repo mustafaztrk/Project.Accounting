@@ -1,4 +1,4 @@
-﻿namespace AbcYazilim.OnMuhasebe.Stoklar;
+﻿namespace Project.Accounting.Stoklar;
 
 public class Stok : FullAuditedAggregateRoot<Guid>
 {
@@ -13,11 +13,11 @@ public class Stok : FullAuditedAggregateRoot<Guid>
     public string Aciklama { get; set; }
     public bool Durum { get; set; }
 
-    /*
+   
     public Birim Birim { get; set; }
     public OzelKod OzelKod1 { get; set; }
     public OzelKod OzelKod2 { get; set; }
 
     public ICollection<FaturaHareket> FaturaHareketler { get; set; }
-    */
+   
 }

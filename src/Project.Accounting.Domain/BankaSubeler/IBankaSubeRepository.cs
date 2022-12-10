@@ -1,6 +1,6 @@
 ﻿using Project.Accounting.Commons;
 
-namespace AbcYazilim.OnMuhasebe.BankaSubeler;
+namespace Project.Accounting.BankaSubeler;
 
 public interface IBankaSubeRepository : ICommonRepository<BankaSube>
 {

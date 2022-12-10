@@ -20,7 +20,7 @@ public class Fatura : FullAuditedAggregateRoot<Guid>
     public bool Durum { get; set; } 
 
 
-    /*
+ 
     public Cari Cari { get; set; }
     public OzelKod OzelKod1 { get; set; }
     public OzelKod OzelKod2 { get; set; }
@@ -28,5 +28,5 @@ public class Fatura : FullAuditedAggregateRoot<Guid>
     public Donem Donem { get; set; }
 
     public ICollection<FaturaHareket> FaturaHareketler { get; set; }
-    */
+   
 }

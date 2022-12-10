@@ -21,7 +21,7 @@ public class Makbuz : FullAuditedAggregateRoot<Guid>
     public string Aciklama { get; set; }
     public bool Durum { get; set; }
 
-    /*
+    
     public Cari Cari { get; set; }
     public Kasa Kasa { get; set; }
     public BankaHesap BankaHesap { get; set; }
@@ -31,5 +31,5 @@ public class Makbuz : FullAuditedAggregateRoot<Guid>
     public Donem Donem { get; set; }
 
     public ICollection<MakbuzHareket> MakbuzHareketler { get; set; }
-    */
+ 
 }

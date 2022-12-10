@@ -10,12 +10,12 @@ public class Depo : FullAuditedAggregateRoot<Guid>
     public string Aciklama { get; set; }
     public bool Durum { get; set; }
 
-    /*
+   
     public OzelKod OzelKod1 { get; set; }
     public OzelKod OzelKod2 { get; set; }
     public Sube Sube { get; set; }
 
     public ICollection<FirmaParametre> FirmaParametreler { get; set; }
     public ICollection<FaturaHareket> FaturaHareketler { get; set; }
-    */
+    
 }

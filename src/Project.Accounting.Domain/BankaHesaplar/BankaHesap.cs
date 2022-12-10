@@ -1,4 +1,8 @@
-﻿using System;
+﻿using Project.Accounting.BankaSubeler;
+using Project.Accounting.Makbuzlar;
+using Project.Accounting.OzelKodlar;
+using Project.Accounting.Subeler;
+using System;
 using Volo.Abp.Domain.Entities.Auditing;
 
 namespace Project.Accounting.BankaHesaplar;
@@ -17,12 +21,14 @@ public class BankaHesap : FullAuditedAggregateRoot<Guid>
     public string Aciklama { get; set; }
     public bool Durum { get; set; }
 
-    /* public BankaSube BankaSube { get; set; }
+     public BankaSube BankaSube { get; set; }
      public OzelKod OzelKod1 { get; set; }
      public OzelKod OzelKod2 { get; set; }
      public Sube Sube { get; set; }
 
+    
      public ICollection<Makbuz> Makbuzlar { get; set; }
      public ICollection<MakbuzHareket> MakbuzHareketler { get; set; }
-    */
+    
+
 }

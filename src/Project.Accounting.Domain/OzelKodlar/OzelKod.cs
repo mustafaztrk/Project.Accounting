@@ -1,4 +1,6 @@
-﻿namespace Project.Accounting.OzelKodlar;
+﻿using Project.Accounting.BankaHesaplar;
+
+namespace Project.Accounting.OzelKodlar;
 
 public class OzelKod : FullAuditedAggregateRoot<Guid>
 {
@@ -9,9 +11,10 @@ public class OzelKod : FullAuditedAggregateRoot<Guid>
     public string Aciklama { get; set; }
     public bool Durum { get; set; }
 
-    /*
+    //birden çok banka hesabının özel kodu olabilir bundan dolayı collection tanımladık
     public ICollection<BankaHesap> OzelKod1BankaHesaplar { get; set; }
     public ICollection<BankaHesap> OzelKod2BankaHesaplar { get; set; }
+   
     public ICollection<Banka> OzelKod1Bankalar { get; set; }
     public ICollection<Banka> OzelKod2Bankalar { get; set; }
     public ICollection<BankaSube> OzelKod1BankaSubeler { get; set; }
@@ -34,5 +37,5 @@ public class OzelKod : FullAuditedAggregateRoot<Guid>
     public ICollection<Masraf> OzelKod2Masraflar { get; set; }
     public ICollection<Stok> OzelKod1Stoklar { get; set; }
     public ICollection<Stok> OzelKod2Stoklar { get; set; }
-    */
+    
 }

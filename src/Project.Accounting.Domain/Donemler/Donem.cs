@@ -7,9 +7,9 @@ public class Donem : FullAuditedAggregateRoot<Guid>
     public string Aciklama { get; set; }
     public bool Durum { get; set; }
 
-    /*
+   
     public ICollection<Fatura> Faturalar { get; set; }
     public ICollection<Makbuz> Makbuzlar { get; set; }
     public ICollection<FirmaParametre> FirmaParametreler { get; set; }
-    */
+    
 }
