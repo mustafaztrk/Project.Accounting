@@ -5,5 +5,5 @@ namespace Project.Accounting.Subeler;
 
 public interface ISubeRepository : ICommonRepository<Sube>
 {
-    Task EntityAnyAsync(Guid? subeId, Func<object, bool> value);
+    
 }
