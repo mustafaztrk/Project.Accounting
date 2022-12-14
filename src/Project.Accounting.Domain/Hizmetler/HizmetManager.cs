@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Project.Accounting.Extensions;
 using Volo.Abp.Domain.Services;
 
-namespace AProject.Accounting.Hizmetler;
+namespace Project.Accounting.Hizmetler;
 
 public class HizmetManager : DomainService
 {
